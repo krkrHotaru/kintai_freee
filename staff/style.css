@@ -1,0 +1,82 @@
+.push {
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn_green {
+    background-color: green;
+}
+
+.btn_red {
+    background-color: red;
+}
+
+.btn_white {
+    border: 1px solid;
+    color: black;
+    background-color: white;
+}
+
+#paging {
+    bottom: 70px;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width:500px) {
+
+    .menu {
+        min-height: 100vh;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+    }
+
+    #footer {
+        max-width: 100vh;
+        max-height: 100vh;
+        bottom: 0;
+        background-color: #b28cb2;
+        color: white;
+        text-align: center;
+    }
+
+}
+
+.menu {
+    max-width: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.table {
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#footer {
+    bottom: 0;
+    background-color: #b28cb2;
+    color: white;
+    text-align: center;
+}
+
+.clock {
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(-45deg, transparent 25%, #eee 25%, #eee 50%, transparent 50%, transparent 75%, #eee 75%, #eee);
+    background-size: 4px 4px;
+    border-bottom: 4px double #ddd;
+    border-top: 4px double #ddd;
+    width: 200px;
+}
+
+.rule_num {
+    width: 50px;
+    text-align: center;
+}

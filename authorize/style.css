@@ -1,0 +1,55 @@
+.push {
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn_green {
+    background-color: green;
+}
+
+.btn_red {
+    background-color: red;
+}
+
+.btn_white {
+    border: 1px solid;
+    color: black;
+    background-color: white;
+}
+
+@media screen and (max-width:500px) {
+
+    .menu {
+        min-height: 100vh;
+        max-width: 100vh;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+    }
+
+    #footer {
+        max-width: 100vh;
+        max-height: 100vh;
+        bottom: 0;
+        background-color: #b28cb2;
+        color: white;
+        text-align: center;
+    }
+}
+
+.menu {
+    max-width: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#footer {
+    bottom: 0;
+    background-color: #b28cb2;
+    color: white;
+    text-align: center;
+
+}
